@@ -6,3 +6,7 @@ ORG_GEO.PY
 - NOTE: there is actually no particular need for nltk here, spacy can do the tokenizing too. So it is actually an overkill to use both libraries. 
 - You can do a lot more with spacy, check https://spacy.io/ .
 - Same with nltk. Check https://www.nltk.org/ .
+
+blob_NaiveBayes.py
+- Exercise for understandign NaiveBayes classifiers. This example is purely an exercise. In this particular case, I was playign with company transcripts. We are using TextBlob here, https://textblob.readthedocs.io/en/dev/index.html, a very good library for simple tasks.
+- Why just an exercise? Because we find NaiveBayes classifiers to be actually very naive, and testing did not find it good enough. For building stronger classifiers, we strongly recommend doing deeper work/research on scikit.learn and tensorflow libraries.
