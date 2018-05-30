@@ -10,3 +10,12 @@ ORG_GEO.PY
 blob_NaiveBayes.py
 - Exercise for understandign NaiveBayes classifiers. This example is purely an exercise. In this particular case, I was playign with company transcripts. We are using TextBlob here, https://textblob.readthedocs.io/en/dev/index.html, a very good library for simple tasks.
 - Why just an exercise? Because we find NaiveBayes classifiers to be actually very naive, and testing did not find it good enough. For building stronger classifiers, we strongly recommend doing deeper work/research on scikit.learn and tensorflow libraries.
+
+basic_text_analysis.py
+- this is a basic example of how to build your own word2vec models, how to preprocess the text and keep only specific type of words, like nouns, as well as frequency analysis of the text. It is using gensim, spacy and nltk libraries. For deeper understanding of the libraries, please check below.
+- gensim @ https://radimrehurek.com/gensim/
+- spacy at https://spacy.io/
+- nltk @ https://www.nltk.org/
+
+
+
