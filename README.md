@@ -17,5 +17,9 @@ basic_text_analysis.py
 - spacy at https://spacy.io/
 - nltk @ https://www.nltk.org/
 
+text_similarity.py
+- program helps compare multiple files to a certain base file and find out how similar they are.
+- the NLP parsing function (text processing function) is basic here, but you can replace it with more advanced versions, depending on what your needs are.
+- library used: gensim, nltk
 
 
